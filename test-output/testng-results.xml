@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-28T09:19:55Z" name="Default suite" finished-at="2022-11-28T09:20:08Z" duration-ms="13183">
+  <suite started-at="2022-12-21T16:14:37Z" name="Default suite" finished-at="2022-12-21T16:14:55Z" duration-ms="18059">
     <groups>
     </groups>
-    <test started-at="2022-11-28T09:19:55Z" name="Default test" finished-at="2022-11-28T09:20:08Z" duration-ms="13183">
-      <class name="webdriver.Topic_01_Check_Environment">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@1a677343]" started-at="2022-11-28T09:19:55Z" name="beforeClass" finished-at="2022-11-28T09:20:05Z" duration-ms="9953" status="PASS">
+    <test started-at="2022-12-21T16:14:37Z" name="Default test" finished-at="2022-12-21T16:14:55Z" duration-ms="18059">
+      <class name="webdriver.Topic_02_Selenium_Locator">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:37Z" name="beforeClass" finished-at="2022-12-21T16:14:43Z" duration-ms="5479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_ValidateCurrentUrl()[pri:0, instance:webdriver.Topic_01_Check_Environment@1a677343]" started-at="2022-11-28T09:20:05Z" name="TC_01_ValidateCurrentUrl" finished-at="2022-11-28T09:20:05Z" duration-ms="20" status="PASS">
+        <test-method signature="TC_01_ID()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:43Z" name="TC_01_ID" finished-at="2022-12-21T16:14:45Z" duration-ms="2771" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_ValidateCurrentUrl -->
-        <test-method signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_01_Check_Environment@1a677343]" started-at="2022-11-28T09:20:05Z" name="TC_02_ValidatePageTitle" finished-at="2022-11-28T09:20:05Z" duration-ms="10" status="PASS">
+        </test-method> <!-- TC_01_ID -->
+        <test-method signature="TC_02_Class()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:45Z" name="TC_02_Class" finished-at="2022-12-21T16:14:45Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_ValidatePageTitle -->
-        <test-method signature="TC_03_LoginFormDisplayed()[pri:0, instance:webdriver.Topic_01_Check_Environment@1a677343]" started-at="2022-11-28T09:20:05Z" name="TC_03_LoginFormDisplayed" finished-at="2022-11-28T09:20:05Z" duration-ms="99" status="PASS">
+        </test-method> <!-- TC_02_Class -->
+        <test-method signature="TC_03_TagName()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:45Z" name="TC_03_TagName" finished-at="2022-12-21T16:14:45Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_LoginFormDisplayed -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@1a677343]" started-at="2022-11-28T09:20:05Z" name="afterClass" finished-at="2022-11-28T09:20:08Z" duration-ms="3071" status="PASS">
+        </test-method> <!-- TC_03_TagName -->
+        <test-method signature="TC_04_LinkText()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:45Z" name="TC_04_LinkText" finished-at="2022-12-21T16:14:49Z" duration-ms="3640" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_01_Check_Environment -->
+        </test-method> <!-- TC_04_LinkText -->
+        <test-method signature="TC_05_PartialLinkText()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:49Z" name="TC_05_PartialLinkText" finished-at="2022-12-21T16:14:51Z" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_PartialLinkText -->
+        <test-method signature="TC_06_css()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:51Z" name="TC_06_css" finished-at="2022-12-21T16:14:55Z" duration-ms="3817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_css -->
+        <test-method signature="TC_07_LinkText()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:55Z" name="TC_07_LinkText" finished-at="2022-12-21T16:14:55Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_LinkText -->
+        <test-method signature="TC_08_Namet()[pri:0, instance:webdriver.Topic_02_Selenium_Locator@7c6908d7]" started-at="2022-12-21T16:14:55Z" name="TC_08_Namet" finished-at="2022-12-21T16:14:55Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_Namet -->
+      </class> <!-- webdriver.Topic_02_Selenium_Locator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
