@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\BoBo\AppData\Local\Temp\testng-eclipse--749144410\testng-customsuite.xml</span>
+                    <span>C:\Users\BoBo\AppData\Local\Temp\testng-eclipse-1254538972\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_02_Invalid_Email">TC_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,42 +116,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_01_ID">TC_01_ID</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_01_Empty_Data">TC_01_Empty_Data</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_02_Class">TC_02_Class</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_03_Incorrect_Email">TC_03_Incorrect_Email</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_03_TagName">TC_03_TagName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_04_Invalid_Password">TC_04_Invalid_Password</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_04_LinkText">TC_04_LinkText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_05_Incorrect_Password">TC_05_Incorrect_Password</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_05_PartialLinkText">TC_05_PartialLinkText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_06_css">TC_06_css</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_07_LinkText">TC_07_LinkText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_02_Selenium_Locator" class="method navigator-link" hash-for-method="TC_08_Namet">TC_08_Namet</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="webdriver.Topic_03_Xpath_Part3" class="method navigator-link" hash-for-method="TC_06_Invalid_Phone">TC_06_Invalid_Phone</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -152,66 +151,95 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">webdriver.Topic_02_Selenium_Locator</span>
+              <img src="failed.png"/>
+              <span class="class-name">webdriver.Topic_03_Xpath_Part3</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_01_ID">
-                  </a> <!-- TC_01_ID -->
-                  <span class="method-name">TC_01_ID</span>
+                  <a name="TC_02_Invalid_Email">
+                  </a> <!-- TC_02_Invalid_Email -->
+                  <span class="method-name">TC_02_Invalid_Email</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Vui lòng nhập email hợp lệ] but found [Email nhập lại không đúng]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at webdriver.Topic_03_Xpath_Part3.TC_02_Invalid_Email(Topic_03_Xpath_Part3.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">webdriver.Topic_03_Xpath_Part3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_Empty_Data">
+                  </a> <!-- TC_01_Empty_Data -->
+                  <span class="method-name">TC_01_Empty_Data</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_02_Class">
-                  </a> <!-- TC_02_Class -->
-                  <span class="method-name">TC_02_Class</span>
+                  <a name="TC_03_Incorrect_Email">
+                  </a> <!-- TC_03_Incorrect_Email -->
+                  <span class="method-name">TC_03_Incorrect_Email</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_03_TagName">
-                  </a> <!-- TC_03_TagName -->
-                  <span class="method-name">TC_03_TagName</span>
+                  <a name="TC_04_Invalid_Password">
+                  </a> <!-- TC_04_Invalid_Password -->
+                  <span class="method-name">TC_04_Invalid_Password</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_04_LinkText">
-                  </a> <!-- TC_04_LinkText -->
-                  <span class="method-name">TC_04_LinkText</span>
+                  <a name="TC_05_Incorrect_Password">
+                  </a> <!-- TC_05_Incorrect_Password -->
+                  <span class="method-name">TC_05_Incorrect_Password</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_05_PartialLinkText">
-                  </a> <!-- TC_05_PartialLinkText -->
-                  <span class="method-name">TC_05_PartialLinkText</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_06_css">
-                  </a> <!-- TC_06_css -->
-                  <span class="method-name">TC_06_css</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_07_LinkText">
-                  </a> <!-- TC_07_LinkText -->
-                  <span class="method-name">TC_07_LinkText</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC_08_Namet">
-                  </a> <!-- TC_08_Namet -->
-                  <span class="method-name">TC_08_Namet</span>
+                  <a name="TC_06_Invalid_Phone">
+                  </a> <!-- TC_06_Invalid_Phone -->
+                  <span class="method-name">TC_06_Invalid_Phone</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,7 +247,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\BoBo\AppData\Local\Temp\testng-eclipse--749144410\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\BoBo\AppData\Local\Temp\testng-eclipse-1254538972\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -228,7 +256,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;webdriver.Topic_02_Selenium_Locator&quot;/&gt;
+      &lt;class name=&quot;webdriver.Topic_03_Xpath_Part3&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -268,44 +296,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_06_css')
-data.setCell(0, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(0, 3, 3817);
+data.setCell(0, 1, 'TC_01_Empty_Data')
+data.setCell(0, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(0, 3, 4770);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC_04_LinkText')
-data.setCell(1, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(1, 3, 3640);
+data.setCell(1, 1, 'TC_06_Invalid_Phone')
+data.setCell(1, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(1, 3, 2367);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC_01_ID')
-data.setCell(2, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(2, 3, 2771);
+data.setCell(2, 1, 'TC_02_Invalid_Email')
+data.setCell(2, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(2, 3, 1677);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC_05_PartialLinkText')
-data.setCell(3, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(3, 3, 2047);
+data.setCell(3, 1, 'TC_04_Invalid_Password')
+data.setCell(3, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(3, 3, 1126);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC_02_Class')
-data.setCell(4, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(4, 3, 103);
+data.setCell(4, 1, 'TC_05_Incorrect_Password')
+data.setCell(4, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(4, 3, 1010);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC_07_LinkText')
-data.setCell(5, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(5, 3, 101);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC_08_Namet')
-data.setCell(6, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(6, 3, 43);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC_03_TagName')
-data.setCell(7, 2, 'webdriver.Topic_02_Selenium_Locator')
-data.setCell(7, 3, 30);
+data.setCell(5, 1, 'TC_03_Incorrect_Email')
+data.setCell(5, 2, 'webdriver.Topic_03_Xpath_Part3')
+data.setCell(5, 3, 1007);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -331,43 +351,41 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">webdriver.Topic_02_Selenium_Locator</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">webdriver.Topic_03_Xpath_Part3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">TC_01_ID</span>
-                <span class="method-start">5487 ms</span>
+                <span class="method-name">TC_01_Empty_Data</span>
+                <span class="method-start">5356 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_02_Class</span>
-                <span class="method-start">8261 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_02_Invalid_Email</span>
+                <span class="method-start">10128 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_03_TagName</span>
-                <span class="method-start">8366 ms</span>
+                <span class="method-name">TC_03_Incorrect_Email</span>
+                <span class="method-start">11813 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_04_LinkText</span>
-                <span class="method-start">8397 ms</span>
+                <span class="method-name">TC_04_Invalid_Password</span>
+                <span class="method-start">12821 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_05_PartialLinkText</span>
-                <span class="method-start">12038 ms</span>
+                <span class="method-name">TC_05_Incorrect_Password</span>
+                <span class="method-start">13948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TC_06_css</span>
-                <span class="method-start">14087 ms</span>
+                <span class="method-name">TC_06_Invalid_Phone</span>
+                <span class="method-start">14959 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC_07_LinkText</span>
-                <span class="method-start">17905 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TC_08_Namet</span>
-                <span class="method-start">18007 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17327 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
