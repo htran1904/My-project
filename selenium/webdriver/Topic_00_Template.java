@@ -17,7 +17,7 @@ public class Topic_00_Template {
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println(projectPath);
-		System.setProperty("webdriver.gecko.driver", projectPath + "\\browerDriver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", projectPath + "/browerDriver/geckodriver");
 		//D:\automation\Selenium WebDriver\browerDriver
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
